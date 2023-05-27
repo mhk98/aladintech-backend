@@ -2,7 +2,7 @@
 const db = require("../../models");
 const bcrypt = require("bcryptjs");
 const { generateToken } = require("../../utils/jwt_token");
-const { ErrorLogger } = require("../../utils/logger");
+
 const User = db.user;
 
 // console.log(User)
